@@ -1,5 +1,8 @@
 # Example: Provision an SDDC
 
+terraform apply -var="api_token=$api_token"
+
+
 This is an example that demonstrates SDDC management actions like creating, updating and deleting an existing SDDC.
 
 To run the example:
